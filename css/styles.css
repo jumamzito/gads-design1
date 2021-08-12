@@ -94,6 +94,76 @@ img{
     color: #22223b;
 }
 
+@media (min-width:750px) {
+    
+    .row{
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .hero{
+        height: auto;
+        padding: 1em 5em 5em;
+    }
+    .container{
+        margin: 5em 1em;
+    }
+    .hero__aside,
+    .hero__image{
+        flex-basis: 50%;
+    }
+
+    .hero__header{
+        font-size: 3.5em;
+    }
+
+    .hero__btn{
+        padding: 1.5em 4em;
+        font-size: 1.2em;
+    }
+
+
+    .hero__image img{
+        width: 95%;
+    }
+
+    .hero__p{
+        width: 80%;
+        font-size: 1.4em;
+        line-height: 1.5em;
+    }
+    .frontend__title{
+        text-align: center;
+        font-size: 3em;
+    }
+    .frontend__block{
+        flex-basis: 33.3%;
+        text-align: center;
+    }
+
+    .frontend__fields{
+        height: auto;
+        padding: 2em 5em;
+    }
+
+    .frontend__header{
+        text-align: center;
+        font-size: 2.,8em;
+    }
+
+    .frontend__p{
+        text-align: center;
+        width: 90%;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.3em;
+    }
+    .frontend__block img{
+        width: 25%;
+    }
+}
+
 
 /* .hero{
     background-color: #006080 ;
