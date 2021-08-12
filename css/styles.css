@@ -67,21 +67,17 @@ img{
 
 .frontend__fields{
     background-color: #dda15e;
-    padding: 1em;
+    padding: 3em 4em 2em;
 }
 
 .frontend__title{
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
 .frontend__header{
-    font-size: 2em;
+    font-size: 2.8em;
     font-weight: 700;
-}
-
-.frontend__block + .frontend__block{
-    margin-bottom: 1.5em;
 }
 
 .frontend__block img{
@@ -91,7 +87,8 @@ img{
 .frontend__p{
     font-size: 1.2em;
     font-weight: 400;
-    color: #22223b;
+    color: #4a4e69;
+    width: 80%;
 }
 
 @media (min-width:750px) {
@@ -144,7 +141,7 @@ img{
 
     .frontend__fields{
         height: auto;
-        padding: 2em 5em;
+        /* padding: 2em 5em; */
     }
 
     .frontend__header{
