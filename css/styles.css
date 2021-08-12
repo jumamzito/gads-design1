@@ -28,6 +28,7 @@ img{
 
 .container{
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 .row{
@@ -161,6 +162,37 @@ img{
     }
 }
 
+
+@media (min-width: 1080px) {
+    .container{
+        margin: 0 auto;
+    }
+    .hero{
+        padding: 1em 7em 3em;
+        height: auto;
+    }
+
+    .frontend__fields{
+        height: auto;
+        /* padding: 2em 5em; */
+    }
+
+    .hero__btn{
+        padding: 1.7em 4em;
+        font-size: 1.3em;
+    }
+    .hero__p{
+        font-size: 1.8em;
+        width: 85%;
+    }
+    .frontend__p{
+        font-size: 1.8em;
+        width: 88%;
+    }
+    
+
+
+}
 
 /* .hero{
     background-color: #006080 ;
